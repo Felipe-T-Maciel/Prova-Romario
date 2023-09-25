@@ -5,9 +5,8 @@ public class Aluno extends Usuario{
     private Turma turma;
     private ArrayList<Prova> notas = new ArrayList<>();
 
-    public Aluno(String nome, String endereco, long matricula, int idade, Turma turma, String senha) {
+    public Aluno(String nome, String endereco, long matricula, int idade, String senha) {
         super(nome, endereco, matricula, idade, senha);
-        this.turma = turma;
         usuarios.add(this);
     }
 
