@@ -86,7 +86,7 @@ public class Main {
                         }
 
                         case 3 -> {
-                            Usuario aluno = new Aluno(nome,endereco,matricula,idade,null,senha);
+                            Usuario aluno = new Aluno(nome,endereco,matricula,idade,senha);
                         }
 
                         case 4 -> {}
